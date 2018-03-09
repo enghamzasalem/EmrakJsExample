@@ -1,0 +1,116 @@
+{
+  "contract_name": "SimpleStorage",
+  "address": "0x76d231ee90746f397f36f63805fe03e2a035b883",
+  "code": "6060604052341561000f57600080fd5b60405160208061015283398101604052808051600055505061011c806100366000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631ab06ee5811460635780632a1afcd914607b5780636d4ce63c14609d578063b67cd93b1460ad578063c6ea59b91460bd57600080fd5b3415606d57600080fd5b607960043560243560cd565b005b3415608557600080fd5b608b60d8565b60405190815260200160405180910390f35b341560a757600080fd5b608b60de565b341560b757600080fd5b608b60e4565b341560c757600080fd5b608b60ea565b600091909155600155565b60005481565b60005490565b60015481565b600154905600a165627a7a723058200052b6278862908252266f07e33bfb339cb5561ca145bb8d39a6b3e65bce00c10029",
+  "runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631ab06ee5811460635780632a1afcd914607b5780636d4ce63c14609d578063b67cd93b1460ad578063c6ea59b91460bd57600080fd5b3415606d57600080fd5b607960043560243560cd565b005b3415608557600080fd5b608b60d8565b60405190815260200160405180910390f35b341560a757600080fd5b608b60de565b341560b757600080fd5b608b60e4565b341560c757600080fd5b608b60ea565b600091909155600155565b60005481565b60005490565b60015481565b600154905600a165627a7a723058200052b6278862908252266f07e33bfb339cb5561ca145bb8d39a6b3e65bce00c10029",
+  "real_runtime_bytecode": "606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416631ab06ee5811460635780632a1afcd914607b5780636d4ce63c14609d578063b67cd93b1460ad578063c6ea59b91460bd57600080fd5b3415606d57600080fd5b607960043560243560cd565b005b3415608557600080fd5b608b60d8565b60405190815260200160405180910390f35b341560a757600080fd5b608b60de565b341560b757600080fd5b608b60e4565b341560c757600080fd5b608b60ea565b600091909155600155565b60005481565b60005490565b60015481565b600154905600a165627a7a723058200052b6278862908252266f07e33bfb339cb5561ca145bb8d39a6b3e65bce00c10029",
+  "swarm_hash": "0052b6278862908252266f07e33bfb339cb5561ca145bb8d39a6b3e65bce00c1",
+  "gas_estimates": {
+    "creation": [
+      20152,
+      56800
+    ],
+    "external": {
+      "get()": 396,
+      "getname()": 440,
+      "set(uint256,uint256)": 40131,
+      "storedData()": 374,
+      "storedDataname()": 418
+    },
+    "internal": {}
+  },
+  "function_hashes": {
+    "get()": "6d4ce63c",
+    "getname()": "c6ea59b9",
+    "set(uint256,uint256)": "1ab06ee5",
+    "storedData()": "2a1afcd9",
+    "storedDataname()": "b67cd93b"
+  },
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "x",
+          "type": "uint256"
+        },
+        {
+          "name": "y",
+          "type": "uint256"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "storedData",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "storedDataname",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getname",
+      "outputs": [
+        {
+          "name": "retVal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "initialValue",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ]
+}
